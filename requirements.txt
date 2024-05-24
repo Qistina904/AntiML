@@ -5,4 +5,4 @@ streamlit
 matplotlib
 seaborn
 xgboost
-sklearn
+scikit-learn
