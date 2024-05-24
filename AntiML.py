@@ -18,7 +18,7 @@ def EDA(li_small, hi_small):
     3. Integrating it into the economy as legitimate funds.
     """)
 
-    st.image('Notebook/jason-leung-SAYzxuS1O3M-unsplash.jpg', caption='Money Backgrounds by Jason Leung')
+    st.image('jason-leung-SAYzxuS1O3M-unsplash.jpg', caption='Money Backgrounds by Jason Leung')
 
     st.markdown("""
     **Anti-money laundering (AML)** measures are crucial to protect the financial system's integrity, prevent criminal activity, and ensure compliance with regulatory standards. \n

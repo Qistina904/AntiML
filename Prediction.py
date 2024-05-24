@@ -16,7 +16,7 @@ def predict(li_small):
     st.title("Money Laundering: Prediction")
 
     # Load the model
-    model = joblib.load('Notebook/XGBoost_model.joblib')
+    model = joblib.load('XGBoost_model.joblib')
     
     # Fit label encoders on the dataset
     label_encoders = fit_label_encoders(li_small, ['Receiving Currency', 'Payment Currency', 'Payment Format'])
