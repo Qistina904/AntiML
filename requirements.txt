@@ -1,7 +1,7 @@
 joblib
 pandas
 numpy
-stremlit
+streamlit
 matplotlib
 seaborn
 xgboost
