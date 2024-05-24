@@ -7,8 +7,8 @@ from Prediction import predict
 @st.cache_data
 def load_datasets():
 # Load data from local files
-    li_small = pd.read_csv("C:/Users/Qistina/practicecode/AntiML/LI-Small_Trans.csv", header=0, parse_dates=[0])
-    hi_small = pd.read_csv("C:/Users/Qistina/practicecode/AntiML/HI-Small_Trans.csv", header=0, parse_dates=[0])
+    li_small = pd.read_csv("LI-Small_Trans.csv", header=0, parse_dates=[0])
+    hi_small = pd.read_csv("HI-Small_Trans.csv", header=0, parse_dates=[0])
     return li_small, hi_small
 
 # Load the datasets
